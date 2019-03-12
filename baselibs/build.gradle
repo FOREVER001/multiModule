@@ -50,4 +50,6 @@ dependencies {
     // commonLibs
     api rootProject.ext.commonLibs
     annotationProcessor rootProject.ext.otherDeps["arouter-compiler"]
+    //加载提示框
+    api 'com.kaopiz:kprogresshud:1.0.2'
 }

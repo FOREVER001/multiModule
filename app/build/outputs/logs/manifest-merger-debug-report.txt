@@ -45,6 +45,7 @@ MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\zxh17\.gradle\caches
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\3164821dfdd5354b31545462b2bfcd9c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-3.aar\38375e5fa311f7ce3805cb0d91d98fd1\AndroidManifest.xml:2:1-17:12
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\839732e9d7cd9fef874bef5ec6197df0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\d0f2985281399e2f98836e98c5385971\AndroidManifest.xml:2:1-15:12
 INJECTED from D:\workspace\ComponentBasedProject\app\src\main\AndroidManifest.xml:2:1-22:12
 INJECTED from D:\workspace\ComponentBasedProject\app\src\main\AndroidManifest.xml:2:1-22:12
 INJECTED from D:\workspace\ComponentBasedProject\app\src\main\AndroidManifest.xml:2:1-22:12
@@ -82,6 +83,8 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-3.aar\38375e5fa311f7ce3805cb0d91d98fd1\AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\839732e9d7cd9fef874bef5ec6197df0\AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\839732e9d7cd9fef874bef5ec6197df0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\d0f2985281399e2f98836e98c5385971\AndroidManifest.xml:11:5-13:38
+MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\d0f2985281399e2f98836e98c5385971\AndroidManifest.xml:11:5-13:38
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\087af553f2e1112446a4f8ad1627ca75\AndroidManifest.xml:22:18-91
 	android:supportsRtl
@@ -198,6 +201,8 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-3.aar\38375e5fa311f7ce3805cb0d91d98fd1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\839732e9d7cd9fef874bef5ec6197df0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\839732e9d7cd9fef874bef5ec6197df0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\d0f2985281399e2f98836e98c5385971\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\d0f2985281399e2f98836e98c5385971\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\workspace\ComponentBasedProject\app\src\main\AndroidManifest.xml
 INJECTED from D:\workspace\ComponentBasedProject\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
