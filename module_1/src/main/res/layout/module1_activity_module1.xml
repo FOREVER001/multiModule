@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.Module1Activity"
+  >
+    <TextView
+        android:id="@+id/tv_module1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="我是module1页面" />
+    <Button
+        android:id="@+id/tv_test"
+        android:text="123"
+        android:textColor="#0f0"
+        android:layout_marginBottom="40dp"
+        android:gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>
