@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="match_parent">
+    <!--顶部的需要沉浸的图片View 或其他东西 视频View  等 -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bar"
+        android:scaleType="centerCrop" />
+    <!-- app:use_type="use_padding_top 向上paddingTop状态栏高度-->
+<client.com.baselibs.utils.systembar.StatusBarHeightView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="205dp"
+    app:use_type="use_padding_top"
     android:orientation="vertical"
-    tools:context=".ui.Module2Activity">
-          <TextView
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:gravity="center"
-              android:text="我是module2页面的数据"/>
-</LinearLayout>
+    >
+    <!--这里放内容布局或View-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/module2_test"/>
+</client.com.baselibs.utils.systembar.StatusBarHeightView>
+</RelativeLayout>

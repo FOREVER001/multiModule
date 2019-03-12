@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="StatusBarHeightView"><attr format="integer" name="use_type">
+            <enum name="use_height" value="0"/>
+            <enum name="use_padding_top" value="1"/>
+        </attr></declare-styleable>
     <string name="app_name">BaseLibs</string>
 </resources>

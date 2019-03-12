@@ -11,23 +11,27 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import client.com.baselibs.base.BaseActivity;
 import client.com.baselibs.routeconstants.ArouteConstants;
 
 @Route(path = ArouteConstants.APP_MAIN_ACTIVITY_PATH)
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends BaseActivity {
     @BindView(R.id.btn_module1)
     Button btnModule1;
     @BindView(R.id.btn_module2)
     Button btnModule2;
 
+
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.app_activity_main);
-        ButterKnife.bind(this);
+    public void initViews() {
 
     }
 
+    @Override
+    public int getLayoutId() {
+        return R.layout.app_activity_main;
+    }
 
 
     @OnClick({R.id.btn_module1, R.id.btn_module2})

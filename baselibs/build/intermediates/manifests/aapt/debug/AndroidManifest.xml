@@ -5,7 +5,7 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="17"
         android:targetSdkVersion="28" />
     <!-- 获取GSM网络信息状态，如当前的网络连接是否有效 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
