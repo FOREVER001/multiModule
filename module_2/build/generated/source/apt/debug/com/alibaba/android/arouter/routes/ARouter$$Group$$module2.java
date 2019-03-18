@@ -1,5 +1,6 @@
 package com.alibaba.android.arouter.routes;
 
+import client.com.module_2.provider.ChapterServiceImpl;
 import client.com.module_2.ui.Module2Activity;
 import com.alibaba.android.arouter.facade.enums.RouteType;
 import com.alibaba.android.arouter.facade.model.RouteMeta;
@@ -14,5 +15,6 @@ public class ARouter$$Group$$module2 implements IRouteGroup {
   @Override
   public void loadInto(Map<String, RouteMeta> atlas) {
     atlas.put("/module2/module2Activity", RouteMeta.build(RouteType.ACTIVITY, Module2Activity.class, "/module2/module2activity", "module2", null, -1, -2147483648));
+    atlas.put("/module2/publicArticleFragmentService", RouteMeta.build(RouteType.PROVIDER, ChapterServiceImpl.class, "/module2/publicarticlefragmentservice", "module2", null, -1, -2147483648));
   }
 }

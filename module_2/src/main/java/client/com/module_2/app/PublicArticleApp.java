@@ -10,6 +10,5 @@ public class PublicArticleApp extends BaseApp{
     @Override
     public void onCreate() {
         super.onCreate();
-
     }
 }

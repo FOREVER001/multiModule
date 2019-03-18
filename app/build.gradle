@@ -33,9 +33,18 @@ dependencies {
     androidTestImplementation rootProject.ext.testDeps["runner"]
     androidTestImplementation rootProject.ext.testDeps["espresso-core"]
     implementation project(':baselibs')
-    if(!isModule.toBoolean()){
+
+    if(isNeedModule1.toBoolean()){
         implementation project(':module_1')
+    }
+    if(isNeedModule2.toBoolean()){
         implementation project(':module_2')
+    }
+    if(isNeedModule3.toBoolean()){
+        implementation project(':module_3')
+    }
+    if(isNeedModule4.toBoolean()){
+        implementation project(':module_4')
     }
     annotationProcessor rootProject.ext.otherDeps["arouter-compiler"]
     annotationProcessor rootProject.ext.otherDeps["Butterknife-compiler"]

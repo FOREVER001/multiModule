@@ -1,6 +1,9 @@
 package client.com.componentbasedproject;
 
+import client.com.baselibs.provider.ChapterService;
 import client.com.baselibs.provider.HomeService;
+import client.com.baselibs.provider.MeiziService;
+import client.com.baselibs.provider.ProjectService;
 import com.alibaba.android.arouter.facade.service.SerializationService;
 import com.alibaba.android.arouter.facade.template.ISyringe;
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -17,5 +20,8 @@ public class MainActivity$$ARouter$$Autowired implements ISyringe {
     serializationService = ARouter.getInstance().navigation(SerializationService.class);
     MainActivity substitute = (MainActivity)target;
     substitute.mHomeService = (HomeService)ARouter.getInstance().build("/module1/homeFragmentService").navigation();
+    substitute.mChapterService = (ChapterService)ARouter.getInstance().build("/module2/publicArticleFragmentService").navigation();
+    substitute.mMeiziService = (MeiziService)ARouter.getInstance().build("/module3/meiziFragmentService").navigation();
+    substitute.mProjectService = (ProjectService)ARouter.getInstance().build("/module4/projectFragmentService").navigation();
   }
 }

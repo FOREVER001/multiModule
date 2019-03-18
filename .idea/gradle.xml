@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/baselibs" />
             <option value="$PROJECT_DIR$/module_1" />
             <option value="$PROJECT_DIR$/module_2" />
+            <option value="$PROJECT_DIR$/module_3" />
+            <option value="$PROJECT_DIR$/module_4" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

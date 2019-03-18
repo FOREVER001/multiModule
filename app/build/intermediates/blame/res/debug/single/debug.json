@@ -32,12 +32,12 @@
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
@@ -102,6 +102,10 @@
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_module3_fragment_mei_zi.xml.flat",
+        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\module_3\\build\\intermediates\\packaged_res\\debug\\layout\\module3_fragment_mei_zi.xml"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
@@ -180,52 +184,52 @@
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_tab_meizi.png.flat",
-        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_tab_meizi.png"
-    },
-    {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_activity_main.xml.flat",
         "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\src\\main\\res\\layout\\app_activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_tab_meizi.png.flat",
+        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_tab_meizi.png"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\layout\\abc_search_view.xml"
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7f96268954d1fa183124b4999af42707\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector_colored.xml.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\color\\mtrl_tabs_icon_color_selector_colored.xml"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7f96268954d1fa183124b4999af42707\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector_colored.xml.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\color\\mtrl_tabs_icon_color_selector_colored.xml"
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7f96268954d1fa183124b4999af42707\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
@@ -300,24 +304,24 @@
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\animator\\design_fab_hide_motion_spec.xml"
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\color_design_tint_password_toggle.xml.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_tab_chapter.png.flat",
         "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_tab_chapter.png"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\color_design_tint_password_toggle.xml.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_hide_motion_spec.xml.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\animator\\design_fab_hide_motion_spec.xml"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_state_list_anim.xml.flat",
@@ -380,12 +384,12 @@
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7f96268954d1fa183124b4999af42707\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_text_btn_text_color_selector.xml.flat",
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\7cf265997924578eaa440761182bb3bb\\res\\color\\mtrl_text_btn_text_color_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\7f96268954d1fa183124b4999af42707\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1582,6 +1586,10 @@
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout_module4_fragment_project.xml.flat",
+        "source": "D:\\workspace\\ComponentBasedProject\\multiModule\\module_4\\build\\intermediates\\packaged_res\\debug\\layout\\module4_fragment_project.xml"
     },
     {
         "merged": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",

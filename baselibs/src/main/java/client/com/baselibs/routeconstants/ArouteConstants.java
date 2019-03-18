@@ -16,4 +16,15 @@ public interface ArouteConstants {
      * module2模块
      * */
     String MODULE2_MAIN_ACTIVITY_PATH="/module2/module2Activity";
+    String MODULE2_PUBLICE_FRAGMENT_PATH="/module2/publicArticleFragmentService";
+    /**
+     * module3模块
+     * */
+
+    String MODULE3_MEIZI_FRAGMENT_PATH="/module3/meiziFragmentService";
+
+    /**
+     * module4模块
+     * */
+    String MODULE4_PROJECT_FRAGMENT_PATH="/module4/projectFragmentService";
 }

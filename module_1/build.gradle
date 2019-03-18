@@ -1,4 +1,4 @@
-if (isModule.toBoolean()) {
+if (!isNeedModule1.toBoolean()) {
     apply plugin: 'com.android.application'
 } else {
     apply plugin: 'com.android.library'
@@ -7,7 +7,7 @@ apply plugin: 'com.jakewharton.butterknife'
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     defaultConfig {
-        if (isModule.toBoolean()) {
+        if (!isNeedModule1.toBoolean()) {
             applicationId "client.com.module_1"
         }
         minSdkVersion rootProject.ext.android.minSdkVersion
@@ -25,7 +25,7 @@ android {
     resourcePrefix "module1_"
     sourceSets {
         main {
-            if (isModule.toBoolean()) {
+            if (!isNeedModule1.toBoolean()) {
                 manifest.srcFile 'src/main/module/AndroidManifest.xml'
             } else {
                 manifest.srcFile 'src/main/AndroidManifest.xml'
