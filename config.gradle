@@ -20,7 +20,9 @@ ext {
             "supportv4"        : "com.android.support:support-v4:${dependVersion.androidSupportSdkVersion}",
             "appcompatv7"      : "com.android.support:appcompat-v7:${dependVersion.androidSupportSdkVersion}",
             "constraint-layout": "com.android.support.constraint:constraint-layout:1.1.3",
-            "annotations"      : "com.android.support:support-annotations:${dependVersion.androidSupportSdkVersion}"
+            "annotations"      : "com.android.support:support-annotations:${dependVersion.androidSupportSdkVersion}",
+            "design"      : "com.android.support:design:${dependVersion.androidSupportSdkVersion}"
+
     ]
     retrofit = [
             "retrofit"                : "com.squareup.retrofit2:retrofit:${dependVersion.retrofitSdkVersion}",

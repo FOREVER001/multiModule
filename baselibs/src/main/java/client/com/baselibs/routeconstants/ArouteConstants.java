@@ -11,6 +11,7 @@ public interface ArouteConstants {
      * module1模块
      * */
     String MODULE1_MAIN_ACTIVITY_PATH="/module1/module1Activity";
+    String MODULE1_HOME_FRAGMENT_PATH="/module1/homeFragmentService";
     /**
      * module2模块
      * */

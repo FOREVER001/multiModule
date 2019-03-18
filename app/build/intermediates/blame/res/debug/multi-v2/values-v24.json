@@ -4,7 +4,17 @@
             "outputFile": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\83008798748e09a6124e3a37342d4e9e\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\8309d83167973b8eefd9ceb759ebb5f0\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\9aadb45404cf6b1cc4a8143d5d73bfd4\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4527fb0cfe13cb7780e500539c0bb6d8\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

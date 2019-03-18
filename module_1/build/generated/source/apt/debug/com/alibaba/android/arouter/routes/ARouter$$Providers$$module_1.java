@@ -1,5 +1,7 @@
 package com.alibaba.android.arouter.routes;
 
+import client.com.module_1.ui.provider.HomeServiceImpl;
+import com.alibaba.android.arouter.facade.enums.RouteType;
 import com.alibaba.android.arouter.facade.model.RouteMeta;
 import com.alibaba.android.arouter.facade.template.IProviderGroup;
 import java.lang.Override;
@@ -11,5 +13,6 @@ import java.util.Map;
 public class ARouter$$Providers$$module_1 implements IProviderGroup {
   @Override
   public void loadInto(Map<String, RouteMeta> providers) {
+    providers.put("client.com.baselibs.provider.HomeService", RouteMeta.build(RouteType.PROVIDER, HomeServiceImpl.class, "/module1/homeFragmentService", "module1", null, -1, -2147483648));
   }
 }

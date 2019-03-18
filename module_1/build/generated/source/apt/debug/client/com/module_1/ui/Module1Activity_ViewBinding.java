@@ -16,9 +16,9 @@ import java.lang.Override;
 public class Module1Activity_ViewBinding implements Unbinder {
   private Module1Activity target;
 
-  private View view2131492990;
+  private View view2131493033;
 
-  private View view2131492991;
+  private View view2131493034;
 
   @UiThread
   public Module1Activity_ViewBinding(Module1Activity target) {
@@ -32,7 +32,7 @@ public class Module1Activity_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.tv_module1, "field 'tvModule1' and method 'onViewClicked'");
     target.tvModule1 = Utils.castView(view, R.id.tv_module1, "field 'tvModule1'", TextView.class);
-    view2131492990 = view;
+    view2131493033 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -41,7 +41,7 @@ public class Module1Activity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.tv_test, "field 'tvTest' and method 'onViewClicked'");
     target.tvTest = Utils.castView(view, R.id.tv_test, "field 'tvTest'", Button.class);
-    view2131492991 = view;
+    view2131493034 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -60,9 +60,9 @@ public class Module1Activity_ViewBinding implements Unbinder {
     target.tvModule1 = null;
     target.tvTest = null;
 
-    view2131492990.setOnClickListener(null);
-    view2131492990 = null;
-    view2131492991.setOnClickListener(null);
-    view2131492991 = null;
+    view2131493033.setOnClickListener(null);
+    view2131493033 = null;
+    view2131493034.setOnClickListener(null);
+    view2131493034 = null;
   }
 }

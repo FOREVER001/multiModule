@@ -4,7 +4,7 @@
             "outputFile": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\SmartRefreshHeader-1.1.0-alpha-3.aar\\839732e9d7cd9fef874bef5ec6197df0\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\SmartRefreshHeader-1.1.0-alpha-3.aar\\f811126dcb9e8ab0f7475c5d88003790\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\SmartRefreshLayout-1.1.0-alpha-3.aar\\38375e5fa311f7ce3805cb0d91d98fd1\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\SmartRefreshLayout-1.1.0-alpha-3.aar\\b6dc848c68dbea7ca8726e003f505387\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

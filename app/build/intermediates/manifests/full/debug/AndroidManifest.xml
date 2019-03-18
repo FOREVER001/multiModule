@@ -35,7 +35,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="client.com.componentbasedproject.FragmentActivity" />
         <activity android:name="client.com.module_1.ui.Module1Activity" />
         <activity android:name="client.com.module_2.ui.Module2Activity" />
     </application>
