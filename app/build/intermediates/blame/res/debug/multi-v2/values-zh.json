@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\workspace\\ComponentBasedProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "D:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
                     "source": "C:\\Users\\zxh17\\.gradle\\caches\\transforms-1\\files-1.1\\SmartRefreshHeader-1.1.0-alpha-3.aar\\839732e9d7cd9fef874bef5ec6197df0\\res\\values-zh\\values-zh.xml",

@@ -16,8 +16,13 @@
         android:layout_width="match_parent"
         android:text="module2"
         android:layout_height="40dp" />
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
 
     <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:visibility="gone"
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

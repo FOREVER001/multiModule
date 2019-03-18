@@ -2351,256 +2351,259 @@ public final class R2 {
     public static final int expanded_menu = 0x7f0c0030;
 
     @IdRes
-    public static final int forever = 0x7f0c0031;
+    public static final int fl_content = 0x7f0c0031;
 
     @IdRes
-    public static final int glide_custom_view_target_tag = 0x7f0c0032;
+    public static final int forever = 0x7f0c0032;
 
     @IdRes
-    public static final int gone = 0x7f0c0033;
+    public static final int glide_custom_view_target_tag = 0x7f0c0033;
 
     @IdRes
-    public static final int group_divider = 0x7f0c0034;
+    public static final int gone = 0x7f0c0034;
 
     @IdRes
-    public static final int home = 0x7f0c0035;
+    public static final int group_divider = 0x7f0c0035;
 
     @IdRes
-    public static final int icon = 0x7f0c0036;
+    public static final int home = 0x7f0c0036;
 
     @IdRes
-    public static final int icon_group = 0x7f0c0037;
+    public static final int icon = 0x7f0c0037;
 
     @IdRes
-    public static final int image = 0x7f0c0038;
+    public static final int icon_group = 0x7f0c0038;
 
     @IdRes
-    public static final int info = 0x7f0c0039;
+    public static final int image = 0x7f0c0039;
 
     @IdRes
-    public static final int invisible = 0x7f0c003a;
+    public static final int info = 0x7f0c003a;
 
     @IdRes
-    public static final int italic = 0x7f0c003b;
+    public static final int invisible = 0x7f0c003b;
 
     @IdRes
-    public static final int label = 0x7f0c003c;
+    public static final int italic = 0x7f0c003c;
 
     @IdRes
-    public static final int left = 0x7f0c003d;
+    public static final int label = 0x7f0c003d;
 
     @IdRes
-    public static final int line1 = 0x7f0c003e;
+    public static final int left = 0x7f0c003e;
 
     @IdRes
-    public static final int line3 = 0x7f0c003f;
+    public static final int line1 = 0x7f0c003f;
 
     @IdRes
-    public static final int listMode = 0x7f0c0040;
+    public static final int line3 = 0x7f0c0040;
 
     @IdRes
-    public static final int list_item = 0x7f0c0041;
+    public static final int listMode = 0x7f0c0041;
 
     @IdRes
-    public static final int media_actions = 0x7f0c0042;
+    public static final int list_item = 0x7f0c0042;
 
     @IdRes
-    public static final int message = 0x7f0c0043;
+    public static final int media_actions = 0x7f0c0043;
 
     @IdRes
-    public static final int multiply = 0x7f0c0044;
+    public static final int message = 0x7f0c0044;
 
     @IdRes
-    public static final int none = 0x7f0c0045;
+    public static final int multiply = 0x7f0c0045;
 
     @IdRes
-    public static final int normal = 0x7f0c0046;
+    public static final int none = 0x7f0c0046;
 
     @IdRes
-    public static final int notification_background = 0x7f0c0047;
+    public static final int normal = 0x7f0c0047;
 
     @IdRes
-    public static final int notification_main_column = 0x7f0c0048;
+    public static final int notification_background = 0x7f0c0048;
 
     @IdRes
-    public static final int notification_main_column_container = 0x7f0c0049;
+    public static final int notification_main_column = 0x7f0c0049;
 
     @IdRes
-    public static final int packed = 0x7f0c004a;
+    public static final int notification_main_column_container = 0x7f0c004a;
 
     @IdRes
-    public static final int parent = 0x7f0c004b;
+    public static final int packed = 0x7f0c004b;
 
     @IdRes
-    public static final int parentPanel = 0x7f0c004c;
+    public static final int parent = 0x7f0c004c;
 
     @IdRes
-    public static final int percent = 0x7f0c004d;
+    public static final int parentPanel = 0x7f0c004d;
 
     @IdRes
-    public static final int progress_circular = 0x7f0c004e;
+    public static final int percent = 0x7f0c004e;
 
     @IdRes
-    public static final int progress_horizontal = 0x7f0c004f;
+    public static final int progress_circular = 0x7f0c004f;
 
     @IdRes
-    public static final int radio = 0x7f0c0050;
+    public static final int progress_horizontal = 0x7f0c0050;
 
     @IdRes
-    public static final int right = 0x7f0c0051;
+    public static final int radio = 0x7f0c0051;
 
     @IdRes
-    public static final int right_icon = 0x7f0c0052;
+    public static final int right = 0x7f0c0052;
 
     @IdRes
-    public static final int right_side = 0x7f0c0053;
+    public static final int right_icon = 0x7f0c0053;
 
     @IdRes
-    public static final int screen = 0x7f0c0054;
+    public static final int right_side = 0x7f0c0054;
 
     @IdRes
-    public static final int scrollIndicatorDown = 0x7f0c0055;
+    public static final int screen = 0x7f0c0055;
 
     @IdRes
-    public static final int scrollIndicatorUp = 0x7f0c0056;
+    public static final int scrollIndicatorDown = 0x7f0c0056;
 
     @IdRes
-    public static final int scrollView = 0x7f0c0057;
+    public static final int scrollIndicatorUp = 0x7f0c0057;
 
     @IdRes
-    public static final int search_badge = 0x7f0c0058;
+    public static final int scrollView = 0x7f0c0058;
 
     @IdRes
-    public static final int search_bar = 0x7f0c0059;
+    public static final int search_badge = 0x7f0c0059;
 
     @IdRes
-    public static final int search_button = 0x7f0c005a;
+    public static final int search_bar = 0x7f0c005a;
 
     @IdRes
-    public static final int search_close_btn = 0x7f0c005b;
+    public static final int search_button = 0x7f0c005b;
 
     @IdRes
-    public static final int search_edit_frame = 0x7f0c005c;
+    public static final int search_close_btn = 0x7f0c005c;
 
     @IdRes
-    public static final int search_go_btn = 0x7f0c005d;
+    public static final int search_edit_frame = 0x7f0c005d;
 
     @IdRes
-    public static final int search_mag_icon = 0x7f0c005e;
+    public static final int search_go_btn = 0x7f0c005e;
 
     @IdRes
-    public static final int search_plate = 0x7f0c005f;
+    public static final int search_mag_icon = 0x7f0c005f;
 
     @IdRes
-    public static final int search_src_text = 0x7f0c0060;
+    public static final int search_plate = 0x7f0c0060;
 
     @IdRes
-    public static final int search_voice_btn = 0x7f0c0061;
+    public static final int search_src_text = 0x7f0c0061;
 
     @IdRes
-    public static final int select_dialog_listview = 0x7f0c0062;
+    public static final int search_voice_btn = 0x7f0c0062;
 
     @IdRes
-    public static final int shortcut = 0x7f0c0063;
+    public static final int select_dialog_listview = 0x7f0c0063;
 
     @IdRes
-    public static final int spacer = 0x7f0c0064;
+    public static final int shortcut = 0x7f0c0064;
 
     @IdRes
-    public static final int split_action_bar = 0x7f0c0065;
+    public static final int spacer = 0x7f0c0065;
 
     @IdRes
-    public static final int spread = 0x7f0c0066;
+    public static final int split_action_bar = 0x7f0c0066;
 
     @IdRes
-    public static final int spread_inside = 0x7f0c0067;
+    public static final int spread = 0x7f0c0067;
 
     @IdRes
-    public static final int src_atop = 0x7f0c0068;
+    public static final int spread_inside = 0x7f0c0068;
 
     @IdRes
-    public static final int src_in = 0x7f0c0069;
+    public static final int src_atop = 0x7f0c0069;
 
     @IdRes
-    public static final int src_over = 0x7f0c006a;
+    public static final int src_in = 0x7f0c006a;
 
     @IdRes
-    public static final int start = 0x7f0c006b;
+    public static final int src_over = 0x7f0c006b;
 
     @IdRes
-    public static final int status_bar_latest_event_content = 0x7f0c006c;
+    public static final int start = 0x7f0c006c;
 
     @IdRes
-    public static final int submenuarrow = 0x7f0c006d;
+    public static final int status_bar_latest_event_content = 0x7f0c006d;
 
     @IdRes
-    public static final int submit_area = 0x7f0c006e;
+    public static final int submenuarrow = 0x7f0c006e;
 
     @IdRes
-    public static final int tabMode = 0x7f0c006f;
+    public static final int submit_area = 0x7f0c006f;
 
     @IdRes
-    public static final int tag_transition_group = 0x7f0c0070;
+    public static final int tabMode = 0x7f0c0070;
 
     @IdRes
-    public static final int tag_unhandled_key_event_manager = 0x7f0c0071;
+    public static final int tag_transition_group = 0x7f0c0071;
 
     @IdRes
-    public static final int tag_unhandled_key_listeners = 0x7f0c0072;
+    public static final int tag_unhandled_key_event_manager = 0x7f0c0072;
 
     @IdRes
-    public static final int text = 0x7f0c0073;
+    public static final int tag_unhandled_key_listeners = 0x7f0c0073;
 
     @IdRes
-    public static final int text2 = 0x7f0c0074;
+    public static final int text = 0x7f0c0074;
 
     @IdRes
-    public static final int textSpacerNoButtons = 0x7f0c0075;
+    public static final int text2 = 0x7f0c0075;
 
     @IdRes
-    public static final int textSpacerNoTitle = 0x7f0c0076;
+    public static final int textSpacerNoButtons = 0x7f0c0076;
 
     @IdRes
-    public static final int time = 0x7f0c0077;
+    public static final int textSpacerNoTitle = 0x7f0c0077;
 
     @IdRes
-    public static final int title = 0x7f0c0078;
+    public static final int time = 0x7f0c0078;
 
     @IdRes
-    public static final int titleDividerNoCustom = 0x7f0c0079;
+    public static final int title = 0x7f0c0079;
 
     @IdRes
-    public static final int title_template = 0x7f0c007a;
+    public static final int titleDividerNoCustom = 0x7f0c007a;
 
     @IdRes
-    public static final int top = 0x7f0c007b;
+    public static final int title_template = 0x7f0c007b;
 
     @IdRes
-    public static final int topPanel = 0x7f0c007c;
+    public static final int top = 0x7f0c007c;
 
     @IdRes
-    public static final int tv_module1 = 0x7f0c007d;
+    public static final int topPanel = 0x7f0c007d;
 
     @IdRes
-    public static final int tv_test = 0x7f0c007e;
+    public static final int tv_module1 = 0x7f0c007e;
 
     @IdRes
-    public static final int uniform = 0x7f0c007f;
+    public static final int tv_test = 0x7f0c007f;
 
     @IdRes
-    public static final int up = 0x7f0c0080;
+    public static final int uniform = 0x7f0c0080;
 
     @IdRes
-    public static final int use_height = 0x7f0c0081;
+    public static final int up = 0x7f0c0081;
 
     @IdRes
-    public static final int use_padding_top = 0x7f0c0082;
+    public static final int use_height = 0x7f0c0082;
 
     @IdRes
-    public static final int wrap = 0x7f0c0083;
+    public static final int use_padding_top = 0x7f0c0083;
 
     @IdRes
-    public static final int wrap_content = 0x7f0c0084;
+    public static final int wrap = 0x7f0c0084;
+
+    @IdRes
+    public static final int wrap_content = 0x7f0c0085;
   }
 
   public static final class integer {
@@ -2763,60 +2766,63 @@ public final class R2 {
     public static final int fgh_text_loading_finish = 0x7f15002f;
 
     @StringRes
-    public static final int search_menu_title = 0x7f150030;
+    public static final int hello_blank_fragment = 0x7f150030;
 
     @StringRes
-    public static final int srl_component_falsify = 0x7f150031;
+    public static final int search_menu_title = 0x7f150031;
 
     @StringRes
-    public static final int srl_content_empty = 0x7f150032;
+    public static final int srl_component_falsify = 0x7f150032;
 
     @StringRes
-    public static final int srl_footer_failed = 0x7f150033;
+    public static final int srl_content_empty = 0x7f150033;
 
     @StringRes
-    public static final int srl_footer_finish = 0x7f150034;
+    public static final int srl_footer_failed = 0x7f150034;
 
     @StringRes
-    public static final int srl_footer_loading = 0x7f150035;
+    public static final int srl_footer_finish = 0x7f150035;
 
     @StringRes
-    public static final int srl_footer_nothing = 0x7f150036;
+    public static final int srl_footer_loading = 0x7f150036;
 
     @StringRes
-    public static final int srl_footer_pulling = 0x7f150037;
+    public static final int srl_footer_nothing = 0x7f150037;
 
     @StringRes
-    public static final int srl_footer_refreshing = 0x7f150038;
+    public static final int srl_footer_pulling = 0x7f150038;
 
     @StringRes
-    public static final int srl_footer_release = 0x7f150039;
+    public static final int srl_footer_refreshing = 0x7f150039;
 
     @StringRes
-    public static final int srl_header_failed = 0x7f15003a;
+    public static final int srl_footer_release = 0x7f15003a;
 
     @StringRes
-    public static final int srl_header_finish = 0x7f15003b;
+    public static final int srl_header_failed = 0x7f15003b;
 
     @StringRes
-    public static final int srl_header_loading = 0x7f15003c;
+    public static final int srl_header_finish = 0x7f15003c;
 
     @StringRes
-    public static final int srl_header_pulling = 0x7f15003d;
+    public static final int srl_header_loading = 0x7f15003d;
 
     @StringRes
-    public static final int srl_header_refreshing = 0x7f15003e;
+    public static final int srl_header_pulling = 0x7f15003e;
 
     @StringRes
-    public static final int srl_header_release = 0x7f15003f;
+    public static final int srl_header_refreshing = 0x7f15003f;
 
     @StringRes
-    public static final int srl_header_secondary = 0x7f150040;
+    public static final int srl_header_release = 0x7f150040;
 
     @StringRes
-    public static final int srl_header_update = 0x7f150041;
+    public static final int srl_header_secondary = 0x7f150041;
 
     @StringRes
-    public static final int status_bar_notification_info_overflow = 0x7f150042;
+    public static final int srl_header_update = 0x7f150042;
+
+    @StringRes
+    public static final int status_bar_notification_info_overflow = 0x7f150043;
   }
 }

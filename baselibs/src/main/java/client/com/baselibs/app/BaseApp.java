@@ -16,7 +16,7 @@ import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 
 import client.com.baselibs.BuildConfig;
 
-public class BaseApp extends Application{
+public abstract class BaseApp extends Application{
     //static 代码段可以防止内存泄露
     static {
         //设置全局的Header构建器
@@ -59,4 +59,13 @@ public class BaseApp extends Application{
         }
         ARouter.init(this); // 尽可能早，推荐在Application中初始化
     }
+    /**
+     * Application 初始化
+     */
+    public abstract void initModuleApp(Application application);
+
+    /**
+     * 所有 Application 初始化后的自定义操作
+     */
+    public abstract void initModuleData(Application application);
 }

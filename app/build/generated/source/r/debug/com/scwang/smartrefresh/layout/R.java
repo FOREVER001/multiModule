@@ -72,23 +72,23 @@ public final class R {
         public static final int Translate = 0x7f07000a;
     }
     public static final class string {
-        public static final int srl_component_falsify = 0x7f0b0033;
-        public static final int srl_content_empty = 0x7f0b0034;
-        public static final int srl_footer_failed = 0x7f0b0035;
-        public static final int srl_footer_finish = 0x7f0b0036;
-        public static final int srl_footer_loading = 0x7f0b0037;
-        public static final int srl_footer_nothing = 0x7f0b0038;
-        public static final int srl_footer_pulling = 0x7f0b0039;
-        public static final int srl_footer_refreshing = 0x7f0b003a;
-        public static final int srl_footer_release = 0x7f0b003b;
-        public static final int srl_header_failed = 0x7f0b003c;
-        public static final int srl_header_finish = 0x7f0b003d;
-        public static final int srl_header_loading = 0x7f0b003e;
-        public static final int srl_header_pulling = 0x7f0b003f;
-        public static final int srl_header_refreshing = 0x7f0b0040;
-        public static final int srl_header_release = 0x7f0b0041;
-        public static final int srl_header_secondary = 0x7f0b0042;
-        public static final int srl_header_update = 0x7f0b0043;
+        public static final int srl_component_falsify = 0x7f0b0034;
+        public static final int srl_content_empty = 0x7f0b0035;
+        public static final int srl_footer_failed = 0x7f0b0036;
+        public static final int srl_footer_finish = 0x7f0b0037;
+        public static final int srl_footer_loading = 0x7f0b0038;
+        public static final int srl_footer_nothing = 0x7f0b0039;
+        public static final int srl_footer_pulling = 0x7f0b003a;
+        public static final int srl_footer_refreshing = 0x7f0b003b;
+        public static final int srl_footer_release = 0x7f0b003c;
+        public static final int srl_header_failed = 0x7f0b003d;
+        public static final int srl_header_finish = 0x7f0b003e;
+        public static final int srl_header_loading = 0x7f0b003f;
+        public static final int srl_header_pulling = 0x7f0b0040;
+        public static final int srl_header_refreshing = 0x7f0b0041;
+        public static final int srl_header_release = 0x7f0b0042;
+        public static final int srl_header_secondary = 0x7f0b0043;
+        public static final int srl_header_update = 0x7f0b0044;
     }
     public static final class styleable {
         public static final int[] BallPulseFooter = { 0x7f02012a, 0x7f02012b, 0x7f020157 };

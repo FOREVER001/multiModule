@@ -1,7 +1,5 @@
 package client.com.module_1.ui;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -10,7 +8,6 @@ import android.widget.Toast;
 import com.alibaba.android.arouter.facade.annotation.Route;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 import client.com.baselibs.base.BaseActivity;
 import client.com.baselibs.routeconstants.ArouteConstants;
@@ -30,6 +27,7 @@ public class Module1Activity extends BaseActivity {
     public void initViews() {
         tvModule1.setText("按钮");
         tvTest.setText("hahahh");
+
     }
 
     @Override
