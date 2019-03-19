@@ -46,6 +46,9 @@ dependencies {
     if(isNeedModule4.toBoolean()){
         implementation project(':module_4')
     }
+    if(isNeedModule5.toBoolean()){
+        implementation project(':module_5')
+    }
     annotationProcessor rootProject.ext.otherDeps["arouter-compiler"]
     annotationProcessor rootProject.ext.otherDeps["Butterknife-compiler"]
 

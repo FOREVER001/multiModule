@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#FF4081</color>
     <color name="app_color_ffffff">#ffffff</color>
+    <color name="app_color_transparent">@android:color/transparent</color>
 </resources>

@@ -43,7 +43,6 @@ public class Http {
     private static ApiService SERVICE;
     private static Context context;
     private static String PreferenceName = "exhibition_sp";
-    private static String params;
 //    private static boolean isFrom84=false; //true 表示端口号来自8084 false 表示端口号来自8085
     public static void initHttp(Context context) {
         Http.context = context;
@@ -54,8 +53,9 @@ public class Http {
      */
     private static final int DEFAULT_TIMEOUT = 10000;
 
-    public static ApiService getDefault(final HashMap<String, String> params) {
-        Http.params = new Gson().toJson(params);
+    public static ApiService getDefault() {
+
+
 
         if (context == null) {
             throw new NullPointerException("未初始化 http");
@@ -149,7 +149,7 @@ public class Http {
                     .client(httpClient)
                     .addConverterFactory(gsonConverterFactory)
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                    .baseUrl(AppConfig.BASE_URL_UC)
+                    .baseUrl(AppConfig.BASE_URL_MEIZI)
                     .build().create(ApiService.class);
         }
         return SERVICE;

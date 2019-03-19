@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import client.com.baselibs.base.BaseFragment;
+import client.com.baselibs.base.BaseLazyFragment;
 import client.com.module_1.R;
 
 /**
@@ -13,7 +15,7 @@ import client.com.module_1.R;
  * @author zxh17
  * @version 1.0
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends BaseLazyFragment {
 
 
     public HomeFragment() {
@@ -21,14 +23,17 @@ public class HomeFragment extends Fragment {
     }
 
 
-
+    @Override
+    public int getLayoutId() {
+        return R.layout.module1_fragment_home;
+    }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.module1_fragment_home, container, false);
+    protected void onLazyLoad() {
+
     }
+
+
 
 
 }

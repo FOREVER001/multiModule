@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="module5_dp60">60dp</dimen>
+    <dimen name="module5_dp40">40dp</dimen>
+    <dimen name="module5_dp80">80dp</dimen>
+    <dimen name="module5_dp12">12dp</dimen>
+</resources>

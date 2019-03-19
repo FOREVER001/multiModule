@@ -48,7 +48,10 @@ ext {
             "arouter" : 'com.alibaba:arouter-api:1.4.0',
             "Butterknife" : 'com.jakewharton:butterknife:8.5.1',
             "SmartRefreshLayout" : 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3',
-            "SmartRefreshHeader" : 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3'
+            "SmartRefreshHeader" : 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3',
+            "BaseRecyclerViewAdapterHelper" : 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30',
+            "PhotoView" : 'com.github.chrisbanes:PhotoView:2.0.0',
+            "rxpermissions" : 'com.github.tbruyelle:rxpermissions:0.10.2'
 
     ]
     otherDeps = [

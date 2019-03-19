@@ -22,9 +22,17 @@ public interface ArouteConstants {
      * */
 
     String MODULE3_MEIZI_FRAGMENT_PATH="/module3/meiziFragmentService";
+    /**
+     * 福利图详情页面
+     * */
+    String MODULE3_MEIZI_DETAIL_ACTIVITY_PATH="/module3/meiziDetailActivity";
 
     /**
      * module4模块
      * */
     String MODULE4_PROJECT_FRAGMENT_PATH="/module4/projectFragmentService";
+    /**
+     * module5模块
+     * */
+    String MODULE5_MINE_FRAGMENT_PATH="/module5/mineFragmentService";
 }

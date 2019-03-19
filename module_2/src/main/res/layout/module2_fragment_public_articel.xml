@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<client.com.baselibs.utils.systembar.StatusBarHeightView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.PublicArticelFragment">
-
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="205dp"
+    app:use_type="use_padding_top"
+    android:orientation="vertical">
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="我是公众号页面" />
+</client.com.baselibs.utils.systembar.StatusBarHeightView>
 
-</FrameLayout>
+

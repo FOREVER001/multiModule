@@ -4,10 +4,14 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.view.View;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 
 import butterknife.ButterKnife;
+import client.com.baselibs.R;
 import client.com.baselibs.utils.ActivityManage;
 import client.com.baselibs.utils.systembar.StatusBarUtil;
 
@@ -57,16 +61,12 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
     protected void onPause() {
-
         super.onPause();
-
     }
 
     @Override
     protected void onStop() {
-
         super.onStop();
-
     }
 
     @Override
@@ -90,5 +90,24 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     public BaseActivity getActivity() {
         return this;
+    }
+
+    /**
+     * 统一初始化titlebar
+     */
+    protected Toolbar initToolBar(String title, boolean rightImgIsShow) {
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle(Html.fromHtml(title));
+        setSupportActionBar(toolbar);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                back();
+            }
+        });
+        return toolbar;
+    }
+    protected void back() {
+            finish();
     }
 }
