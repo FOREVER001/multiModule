@@ -13,7 +13,7 @@ public final class BuildConfig {
   // Fields from build type: debug
   public static final boolean isneedmodule1 = true;
   public static final boolean isneedmodule2 = true;
-  public static final boolean isneedmodule3 = false;
+  public static final boolean isneedmodule3 = true;
   public static final boolean isneedmodule4 = true;
   public static final boolean isneedmodule5 = true;
 }
