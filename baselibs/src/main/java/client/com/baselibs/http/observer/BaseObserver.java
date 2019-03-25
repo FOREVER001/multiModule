@@ -63,7 +63,7 @@ import retrofit2.HttpException;
                 a.printStackTrace();
             }
             try {
-                setError(errorParser.getMsg());
+                setError(errorParser.getErrorMsg());
             }catch (Exception e1){
                 e1.printStackTrace();
             }

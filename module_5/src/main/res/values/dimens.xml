@@ -4,4 +4,6 @@
     <dimen name="module5_dp40">40dp</dimen>
     <dimen name="module5_dp80">80dp</dimen>
     <dimen name="module5_dp12">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
 </resources>

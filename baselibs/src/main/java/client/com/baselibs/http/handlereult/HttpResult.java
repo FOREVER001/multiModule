@@ -9,24 +9,24 @@ package client.com.baselibs.http.handlereult;
 
 public class HttpResult<T> {
 
-    private int Code;
-    private String Msg;
+    private int errorCode;
+    private String errorMsg;
     private T  data;
 
-    public int getCode() {
-        return Code;
+    public int getErrorCode() {
+        return errorCode;
     }
 
-    public void setCode(int code) {
-        Code = code;
+    public void setErrorCode(int errorCode) {
+        this.errorCode = errorCode;
     }
 
-    public String getMsg() {
-        return Msg == null ? "" : Msg;
+    public String getErrorMsg() {
+        return errorMsg == null ? "" : errorMsg;
     }
 
-    public void setMsg(String msg) {
-        Msg = msg;
+    public void setErrorMsg(String errorMsg) {
+        this.errorMsg = errorMsg;
     }
 
     public T getData() {

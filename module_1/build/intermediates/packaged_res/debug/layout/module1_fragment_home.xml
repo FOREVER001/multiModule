@@ -8,13 +8,27 @@
     android:layout_marginTop="205dp"
     app:use_type="use_padding_top"
     android:orientation="vertical">
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="#f00"
-        android:textSize="20sp"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="50dp"
+        android:textSize="@dimen/sp_16"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/color_ffffff"
+        android:text="首页"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/smart_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
 </client.com.baselibs.utils.systembar.StatusBarHeightView>
 
 

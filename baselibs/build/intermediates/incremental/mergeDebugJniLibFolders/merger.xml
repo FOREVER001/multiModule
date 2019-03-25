@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\workspace\ComponentBasedProject\multiModule\baselibs\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\workspace\ComponentBasedProject\multiModule\baselibs\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\workspace\ComponentBasedProject\multiModule\baselibs\src\main\jniLibs"><file name="armeabi/liblbs.so" path="D:\workspace\ComponentBasedProject\multiModule\baselibs\src\main\jniLibs\armeabi\liblbs.so"/></source></dataSet><dataSet config="debug"><source path="D:\workspace\ComponentBasedProject\multiModule\baselibs\src\debug\jniLibs"/></dataSet></merger>

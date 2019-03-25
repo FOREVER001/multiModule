@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
@@ -22,8 +23,9 @@ import client.com.baselibs.routeconstants.ArouteConstants;
 import client.com.baselibs.utils.LogUtils;
 import client.com.baselibs.utils.RouterUtils;
 import client.com.baselibs.utils.ToastUtils;
+import client.com.module_3.BuildConfig;
 import client.com.module_3.R;
-import client.com.module_3.R2;
+import client.com.module_3.R;
 import client.com.module_3.adapter.MeiziAdapter;
 import client.com.module_3.ui.meizilist.MeiziListContract;
 import client.com.module_3.ui.meizilist.MeiziListPreseter;
@@ -34,12 +36,12 @@ import client.com.module_3.ui.meizilist.MeiziListPreseter;
  * @author zxh17
  * @version 1.0
  */
+@Route(path = ArouteConstants.MODULE3_MEIZI_PAGE_PATH)
 public class MeiZiFragment extends BaseFragment implements MeiziListContract.View{
 
-    @BindView(R2.id.recyclerview)
-    RecyclerView recyclerview;
-    @BindView(R2.id.smart_refresh)
-    SmartRefreshLayout smartRefresh;
+
+    private RecyclerView recyclerview;
+    private SmartRefreshLayout smartRefresh;
     private MeiziListContract.Preseter presenter;
     private int pageIndex=0;
     private List<MeiziModel.ResultsBean> results;
@@ -50,17 +52,28 @@ public class MeiZiFragment extends BaseFragment implements MeiziListContract.Vie
 
     @Override
     public int getLayoutId() {
-        return R.layout.module3_fragment_mei_zi;
+        if(BuildConfig.isneedmodule3){
+            return R.layout.module3_fragment_mei_zi;
+        }else {
+            return R.layout.module3_fragment_mei_zi1;
+        }
+
     }
 
     @Override
     public void initViews(View view) {
+         findViews(view);
         StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2,
                 StaggeredGridLayoutManager.VERTICAL);
         recyclerview.setLayoutManager(staggeredGridLayoutManager);
         mMeiziAdapter = new MeiziAdapter(results);
         recyclerview.setAdapter(mMeiziAdapter);
         initEvent();
+    }
+
+    private void findViews(View view) {
+        recyclerview=view.findViewById(R.id.recyclerview);
+        smartRefresh=view.findViewById(R.id.smart_refresh);
     }
 
     private void initEvent() {

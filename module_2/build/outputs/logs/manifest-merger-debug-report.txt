@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:2:11-69
@@ -74,11 +74,29 @@ ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\Andr
 	android:name
 		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:20:22-80
 application
-ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:21:5-23:19
+ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:21:5-30:19
 activity#client.com.module_2.ui.Module2Activity
 ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:22:9-65
 	android:name
 		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:22:19-53
+receiver#client.com.baselibs.receiver.NetworkConnectChangedReceiver
+ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:23:19-92
+intent-filter#action:name:android.NET.conn.CONNECTIVITY_CHANGE+action:name:android.Net.wifi.WIFI_STATE_CHANGED+action:name:android.net.wifi.STATE_CHANGE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:24:13-28:29
+action#android.NET.conn.CONNECTIVITY_CHANGE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:25:17-79
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:25:25-76
+action#android.Net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:26:17-78
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:26:25-75
+action#android.net.wifi.STATE_CHANGE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:27:17-72
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml:27:25-69
 uses-sdk
 INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\workspace\ComponentBasedProject\multiModule\module_2\src\main\AndroidManifest.xml

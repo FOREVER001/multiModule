@@ -1,14 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
-MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-33:12
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-33:12
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-33:12
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-29:12
-MERGED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-43:12
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-41:12
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-39:12
+MERGED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-28:12
 MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-24:12
 MERGED from [com.alibaba:arouter-api:1.4.0] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\arouter-api-1.4.0.aar\cc83f651fb0a79600e52ba81971ce5a0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\3820b238f03a03c69ce61c0e362d188f\AndroidManifest.xml:17:1-22:12
@@ -55,32 +54,96 @@ MERGED from [com.android.support:multidex:1.0.3] C:\Users\zxh17\.gradle\caches\t
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-3.aar\b6dc848c68dbea7ca8726e003f505387\AndroidManifest.xml:2:1-17:12
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\f811126dcb9e8ab0f7475c5d88003790\AndroidManifest.xml:2:1-17:12
 MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\9074b764a40ccde777c4f988d76c6140\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\PersistentCookieJar-v1.0.1.aar\64dd8c26eeca3dfc2c40a77db1487396\AndroidManifest.xml:2:1-14:12
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\4e92404c608985cb68f4fba5e1cf162f\AndroidManifest.xml:2:1-11:12
 MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\c3ec6537ff97e0d2d0204783b28f727e\AndroidManifest.xml:2:1-15:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-28:12
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:1-42:12
 		INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:5:5-81
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-81
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:7:5-76
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-76
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.INTERNET
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-67
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:9:5-75
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-75
+MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:9:22-72
 application
-ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:5:5-26:19
-MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:19
-MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:19
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:19
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:19
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:19
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-31:19
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:11:5-40:19
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-41:19
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-41:19
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-39:19
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-39:19
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-37:19
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:5-37:19
+MERGED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-26:19
+MERGED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-26:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\7cf265997924578eaa440761182bb3bb\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\7cf265997924578eaa440761182bb3bb\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9dffff0f5181c6ba79b484c5db8d7fd2\AndroidManifest.xml:9:5-20
@@ -99,46 +162,76 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.1.0-alpha-3.aar\b6dc848c68dbea7ca8726e003f505387\AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\f811126dcb9e8ab0f7475c5d88003790\AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\f811126dcb9e8ab0f7475c5d88003790\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\PersistentCookieJar-v1.0.1.aar\64dd8c26eeca3dfc2c40a77db1487396\AndroidManifest.xml:12:5-20
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\PersistentCookieJar-v1.0.1.aar\64dd8c26eeca3dfc2c40a77db1487396\AndroidManifest.xml:12:5-20
 MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\c3ec6537ff97e0d2d0204783b28f727e\AndroidManifest.xml:11:5-13:38
 MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\c3ec6537ff97e0d2d0204783b28f727e\AndroidManifest.xml:11:5-13:38
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\7f96268954d1fa183124b4999af42707\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:16:9-48
 	android:icon
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:12:9-44
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:19:9-44
+	android:networkSecurityConfig
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:18:9-69
 	android:name
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:6:9-34
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:12:9-34
 activity#client.com.componentbasedproject.MainActivity
-ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:13:9-15:20
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:20:9-22:20
 	android:name
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:20:19-47
 activity#client.com.componentbasedproject.SplashActivity
-ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:16:9-25:20
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:23:9-32:20
 	android:screenOrientation
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:18:13-49
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:25:13-49
 	android:theme
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:19:13-51
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:26:13-51
 	android:name
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:17:13-43
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:24:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:30:27-74
+receiver#client.com.baselibs.receiver.NetworkConnectChangedReceiver
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:33:9-39:20
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:9-38:20
+MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:9-38:20
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:9-38:20
+MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:9-38:20
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:9-36:20
+MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:9-36:20
+MERGED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-18:20
+MERGED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:33:19-92
+intent-filter#action:name:android.NET.conn.CONNECTIVITY_CHANGE+action:name:android.Net.wifi.WIFI_STATE_CHANGED+action:name:android.net.wifi.STATE_CHANGE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.NET.conn.CONNECTIVITY_CHANGE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:35:25-76
+action#android.Net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:36:25-75
+action#android.net.wifi.STATE_CHANGE
+ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:37:17-72
+	android:name
+		ADDED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml:37:25-69
 uses-sdk
 INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
@@ -147,8 +240,6 @@ MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\
 MERGED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-10:41
 MERGED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
@@ -245,6 +336,10 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-3] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\SmartRefreshHeader-1.1.0-alpha-3.aar\f811126dcb9e8ab0f7475c5d88003790\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\9074b764a40ccde777c4f988d76c6140\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.30.aar\9074b764a40ccde777c4f988d76c6140\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\PersistentCookieJar-v1.0.1.aar\64dd8c26eeca3dfc2c40a77db1487396\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.franmontiel:PersistentCookieJar:v1.0.1] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\PersistentCookieJar-v1.0.1.aar\64dd8c26eeca3dfc2c40a77db1487396\AndroidManifest.xml:8:5-10:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\4e92404c608985cb68f4fba5e1cf162f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\4e92404c608985cb68f4fba5e1cf162f\AndroidManifest.xml:7:5-9:41
 MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\c3ec6537ff97e0d2d0204783b28f727e\AndroidManifest.xml:7:5-9:41
 MERGED from [com.kaopiz:kprogresshud:1.0.2] C:\Users\zxh17\.gradle\caches\transforms-1\files-1.1\kprogresshud-1.0.2.aar\c3ec6537ff97e0d2d0204783b28f727e\AndroidManifest.xml:7:5-9:41
 INJECTED from D:\workspace\ComponentBasedProject\multiModule\app\src\main\AndroidManifest.xml
@@ -261,102 +356,34 @@ uses-permission#android.permission.RECEIVE_USER_PRESENT
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-67
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-67
-	android:name
-		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-64
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-75
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-75
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-75
-	android:name
-		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-72
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-81
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-81
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-81
-	android:name
-		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
 MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-80
 MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:5-80
 	android:name
 		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-77
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-79
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.WRITE_SETTINGS
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-20:47
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-20:47
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-20:47
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-20:47
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-20:47
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-20:47
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-20:47
 	tools:ignore
 		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:9-44
 	android:name
 		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:9-57
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
-MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
-MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-76
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-76
-MERGED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-76
-	android:name
-		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:22-73
 uses-permission#android.permission.GET_ACCOUNTS
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-71
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-71
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-71
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-71
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-71
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-71
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:5-71
 	android:name
@@ -365,8 +392,6 @@ uses-permission#android.permission.READ_PROFILE
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-71
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-71
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-71
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-71
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-71
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-71
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-71
 	android:name
@@ -375,8 +400,6 @@ uses-permission#android.permission.READ_CONTACTS
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:5-72
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:5-72
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:5-72
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:5-72
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:5-72
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:5-72
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:5-72
 	android:name
@@ -385,8 +408,6 @@ uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-83
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-83
 MERGED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-83
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-83
-MERGED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-83
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-83
 MERGED from [:module_4] D:\workspace\ComponentBasedProject\multiModule\module_4\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:5-83
 	android:name
@@ -395,14 +416,26 @@ activity#client.com.module_1.ui.Module1Activity
 ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:9-75
 	android:name
 		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:19-72
+activity#client.com.module_1.ui.ui.detail.WebDetailActivity
+ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:9-87
+	android:name
+		ADDED from [:module_1] D:\workspace\ComponentBasedProject\multiModule\module_1\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:19-84
 activity#client.com.module_2.ui.Module2Activity
 ADDED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:9-75
 	android:name
 		ADDED from [:module_2] D:\workspace\ComponentBasedProject\multiModule\module_2\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:19-72
-activity#client.com.module_3.ui.MeiZiDetailActivity
-ADDED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:9-79
+activity#client.com.module_5.ui.login.LoginActivity
+ADDED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:9-22:59
+	android:theme
+		ADDED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:13-56
 	android:name
-		ADDED from [:module_3] D:\workspace\ComponentBasedProject\multiModule\module_3\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:19-76
+		ADDED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:13-70
+activity#client.com.module_5.ui.regist.RegistActivity
+ADDED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:9-25:59
+	android:theme
+		ADDED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from [:module_5] D:\workspace\ComponentBasedProject\multiModule\module_5\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:13-72
 uses-permission#android.permission.CHANGE_WIFI_STATE
 ADDED from [:baselibs] D:\workspace\ComponentBasedProject\multiModule\baselibs\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-76
 	android:name

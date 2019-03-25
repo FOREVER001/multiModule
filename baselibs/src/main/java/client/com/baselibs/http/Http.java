@@ -2,8 +2,13 @@ package client.com.baselibs.http;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.text.TextUtils;
 
 
+import com.franmontiel.persistentcookiejar.ClearableCookieJar;
+import com.franmontiel.persistentcookiejar.PersistentCookieJar;
+import com.franmontiel.persistentcookiejar.cache.SetCookieCache;
+import com.franmontiel.persistentcookiejar.persistence.SharedPrefsCookiePersistor;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -14,10 +19,12 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import client.com.baselibs.constants.AppConfig;
+import client.com.baselibs.constants.Constants;
 import client.com.baselibs.constants.SpKey;
 import client.com.baselibs.http.interceptor.LoggingInterceptor;
 import client.com.baselibs.utils.LogUtils;
 import client.com.baselibs.utils.NetworkUtil;
+import client.com.baselibs.utils.SharePreferenceUtil;
 import okhttp3.Cache;
 import okhttp3.CacheControl;
 import okhttp3.Interceptor;
@@ -111,7 +118,7 @@ public class Http {
                     Request request = chain.request();
                     SharedPreferences sp = context.getSharedPreferences(PreferenceName,
                             Context.MODE_PRIVATE);
-                    String userInfo = sp.getString(SpKey.USER_INFO, "");
+
                     String language = sp.getString(LANGUAGE_KEY, "zh");
                     String lan = "0";
                     if (language.equals("zh")){
@@ -128,7 +135,8 @@ public class Http {
                 }
             };
 
-
+            ClearableCookieJar cookieJar =
+                    new PersistentCookieJar(new SetCookieCache(), new SharedPrefsCookiePersistor(context));
             httpClient = new OkHttpClient.Builder()
                     .retryOnConnectionFailure(true)
                     .connectTimeout(DEFAULT_TIMEOUT, TimeUnit.SECONDS)
@@ -139,6 +147,7 @@ public class Http {
                     .addInterceptor(REWRITE_CACHE_CONTROL_INTERCEPTOR)
 //                    .addInterceptor(loggingInterceptor)
                     .addInterceptor(new LoggingInterceptor())
+                    .addInterceptor(new AddCookiesInterceptor())
                     .sslSocketFactory(SSLSocketClient.getSSLSocketFactory())
                     .hostnameVerifier(SSLSocketClient.getHostnameVerifier())
                     .build();
@@ -155,5 +164,19 @@ public class Http {
         return SERVICE;
     }
 
+    public static class AddCookiesInterceptor implements Interceptor {
 
+
+        @Override
+        public Response intercept(Chain chain) throws IOException {
+            Request.Builder builder = chain.request().newBuilder();
+            String userName = SharePreferenceUtil.getString(Constants.USER_NAME, "");
+            String userPassword = SharePreferenceUtil.getString(Constants.PWD, "");
+            if (!TextUtils.isEmpty(userName) && !TextUtils.isEmpty(userPassword)) {
+                builder.addHeader("Cookie", userName);
+                builder.addHeader("Cookie", userPassword);
+            }
+            return chain.proceed(builder.build());
+        }
+    }
 }

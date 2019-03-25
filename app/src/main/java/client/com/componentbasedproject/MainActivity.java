@@ -1,6 +1,5 @@
 package client.com.componentbasedproject;
 
-import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -14,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import client.com.baselibs.BuildConfig;
 import client.com.baselibs.base.BaseActivity;
 import client.com.baselibs.provider.ChapterService;
 import client.com.baselibs.provider.HomeService;
@@ -77,17 +77,34 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
         viewPager.setAdapter(mMainPageAdapter);
     }
 
+
+
+
+
     @Override
     public int getLayoutId() {
         return R.layout.app_activity_main;
     }
     private List<Fragment> initFragment() {
+
         List<Fragment> mFragments = new ArrayList<>();
-        mFragments.add( mHomeService.getHomeFragment());
-        mFragments.add(mChapterService.getPublicArticleFragment());
-        mFragments.add(mMeiziService.getMeiziFragment());
+        if(client.com.componentbasedproject.BuildConfig.isneedmodule1){
+            mFragments.add( mHomeService.getHomeFragment());
+        }
+        if(client.com.componentbasedproject.BuildConfig.isneedmodule2){
+            mFragments.add(mChapterService.getPublicArticleFragment());
+        }
+
+        if(client.com.componentbasedproject.BuildConfig.isneedmodule3){
+            mFragments.add(mMeiziService.getMeiziFragment());
+        }
+
+        if(client.com.componentbasedproject.BuildConfig.isneedmodule4){}
         mFragments.add(mProjectService.getProjectFragment());
-        mFragments.add(mMineService.getMineFragment());
+        if(client.com.componentbasedproject.BuildConfig.isneedmodule5){
+            mFragments.add(mMineService.getMineFragment());
+        }
+
         return mFragments;
     }
 

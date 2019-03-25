@@ -1,2 +1,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="client.com.module_3" />
+    package="client.com.module_3" >
+    <application
+        android:name=".app.Module3App"
+        android:allowBackup="true"
+        android:icon="@mipmap/queen"
+        android:label="嗨皮"
+        android:roundIcon="@mipmap/queen"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:theme="@style/app_AppTheme">
+        <activity
+            android:name=".ui.MeiziMainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="client.com.baselibs.receiver.NetworkConnectChangedReceiver">
+            <intent-filter>
+                <action android:name="android.NET.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.Net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".ui.MeiZiDetailActivity" />
+    </application>
+</manifest>

@@ -19,10 +19,20 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField('boolean','isneedmodule1',"${isNeedModule1}")
+            buildConfigField('boolean','isneedmodule2',"${isNeedModule2}")
+            buildConfigField('boolean','isneedmodule3',"${isNeedModule3}")
+            buildConfigField('boolean','isneedmodule4',"${isNeedModule4}")
+            buildConfigField('boolean','isneedmodule5',"${isNeedModule5}")
         }
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField('boolean','isneedmodule1',"${isNeedModule1}")
+            buildConfigField('boolean','isneedmodule2',"${isNeedModule2}")
+            buildConfigField('boolean','isneedmodule3',"${isNeedModule3}")
+            buildConfigField('boolean','isneedmodule4',"${isNeedModule4}")
+            buildConfigField('boolean','isneedmodule5',"${isNeedModule5}")
         }
     }
 }

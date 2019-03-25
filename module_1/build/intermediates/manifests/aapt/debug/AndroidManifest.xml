@@ -6,7 +6,7 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="19"
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
@@ -28,6 +28,16 @@
 
     <application>
         <activity android:name="client.com.module_1.ui.Module1Activity" />
+
+        <receiver android:name="client.com.baselibs.receiver.NetworkConnectChangedReceiver" >
+            <intent-filter>
+                <action android:name="android.NET.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.Net.wifi.WIFI_STATE_CHANGED" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="client.com.module_1.ui.ui.detail.WebDetailActivity" />
     </application>
 
 </manifest>

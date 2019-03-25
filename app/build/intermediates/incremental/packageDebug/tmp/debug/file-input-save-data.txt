@@ -1,7 +1,11 @@
 #Internal package file, do not edit.
-#Tue Mar 19 17:42:06 CST 2019
+#Thu Mar 21 15:47:09 CST 2019
+1.base=D\:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 0.baseType=DIRECTORY
-0.base=D\:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.baseType=DIRECTORY
+count=2
+1.set=NATIVE_RESOURCE
 0.path=classes.dex
 0.set=DEX
-count=1
+0.base=D\:\\workspace\\ComponentBasedProject\\multiModule\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+1.path=lib/armeabi/liblbs.so

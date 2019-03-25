@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fl_net_status"
+    android:paddingLeft="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FEDEDE"
+    android:layout_height="40dp">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_warn"/>
+    <TextView
+        android:textColor="#333333"
+        android:textSize="@dimen/sp_12"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="当前网络不可用，请坚持你的网络设置"/>
+
+</FrameLayout>
